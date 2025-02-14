@@ -3,12 +3,20 @@
   "requiresMpuc": 14,
   "hotfixesFormat": null,
   "versions": [
-     {
+    {
+        "id": "Willkommen",
+        "releasedAt": 3801600000,
+        "promotions": {
+            "downloads": {
+                "generic": "https://nasumicraft.de/"
+            }
+        }
+    },
+    {
         "id": "1.0.0",
         "releasedAt": 3801600000,
         "promotions": {
             "downloads": {
-                "curseforge": "https://www.curseforge.com/minecraft/modpacks/nasumicraft-modpack",
                 "generic": "https://nasumicraft.de/"
             }
         }
