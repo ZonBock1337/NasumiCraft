@@ -5,7 +5,7 @@
   "versions": [
     {
         "id": "Willkommen",
-        "releasedAt": 3801600000,
+        "releasedAt": 1739491200000,
         "promotions": {
             "downloads": {
                 "generic": "ns-png-lib-1.nasumicraft.de"
@@ -14,7 +14,7 @@
     },
     {
         "id": "1.0.0",
-        "releasedAt": 3801600000,
+        "releasedAt": 1739491200000,
         "promotions": {
             "downloads": {
                 "generic": "https://nasumicraft.de/"
@@ -23,7 +23,7 @@
     },
     {
         "id": "1.0.3",
-        "releasedAt": 3801600000,
+        "releasedAt": 1739491200000,
         "promotions": {
             "downloads": {
                 "curseforge": "https://www.curseforge.com/minecraft/modpacks/nasumicraft-modpack",
@@ -31,5 +31,15 @@
             }
         }
     }
+    {
+        "id": "1.0.6",
+        "releasedAt": 1739923200000,
+        "promotions": {
+            "downloads": {
+                "curseforge": "https://www.curseforge.com/minecraft/modpacks/nasumicraft-modpack",
+                "generic": "https://nasumicraft.de/"
+            }
+        }
+   }
   ]
 }
