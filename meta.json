@@ -50,6 +50,16 @@
                 "generic": "https://nasumicraft.de/"
             }
         }
+    },
+    {
+        "id": "1.1.4",
+        "releasedAt": 1740268800000,
+        "promotions": {
+            "downloads": {
+                "curseforge": "https://www.curseforge.com/minecraft/modpacks/nasumicraft-modpack",
+                "generic": "https://nasumicraft.de/"
+            }
+        }
     }
   ]
 }
