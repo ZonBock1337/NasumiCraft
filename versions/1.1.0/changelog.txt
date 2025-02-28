@@ -1,9 +1,0 @@
-Neue Mods hinzugefügt!
-
-  Absoforgt gibt es die FTB Chunks Mod
-  Chunks dürfen nicht in der nähe andere Spieler geclaimt werden, es sei denn der Spieler gehört zum Team
-
-Mods:
-Refined Storage, Simple Storage Network, FTB Chunks, FTB Ranks, Simple Hats
-
-BITTE STELLE SICHER DAS DEIN MODPACK AUF DER NEUSTEN VERSION IST!
