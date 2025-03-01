@@ -51,6 +51,7 @@
             margin: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
+            position: relative;
         }
         .category-item:hover {
             transform: scale(1.05);
@@ -74,6 +75,14 @@
         .basic {
             background-color: #f39c12;
         }
+        .stock {
+            font-size: 1.1em;
+            font-weight: bold;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     </style>
 </head>
 <body>
@@ -81,17 +90,23 @@
         <img class="image" src="https://via.placeholder.com/600x400" alt="Beispielbild">
         <h1 class="heading">Die Besten Angebote</h1>
         <div class="category">
-            <div class="category-item ultimate">
+            <!-- Ultimate Plan (auf Lager) -->
+            <div class="category-item ultimate" id="ultimate-plan">
                 <h3>Ultimate</h3>
                 <p>Der Ultimate Plan bietet alles, was du brauchst, um das Beste aus deiner Erfahrung herauszuholen. Mit exklusiven Funktionen, schnellerem Support und Zugang zu Premium-Inhalten ist dies der perfekte Plan für wahre Experten.</p>
+                <div class="stock" style="color: green;">Auf Lager</div> <!-- Text und Farbe auf "Auf Lager" grün gesetzt -->
             </div>
-            <div class="category-item aluxe">
+            <!-- Aluxe Plan (nicht verfügbar) -->
+            <div class="category-item aluxe" id="aluxe-plan">
                 <h3>Aluxe</h3>
                 <p>Der Aluxe Plan kombiniert Luxus mit Leistung. Mit einer benutzerfreundlichen Oberfläche, erweiterten Optionen und einer hervorragenden Leistung ist dies die ideale Wahl für alle, die eine erstklassige Erfahrung suchen.</p>
+                <div class="stock" style="color: red;">Nicht Verfügbar</div> <!-- Text und Farbe auf "Nicht Verfügbar" rot gesetzt -->
             </div>
-            <div class="category-item basic">
+            <!-- Basic Plan (auf Lager) -->
+            <div class="category-item basic" id="basic-plan">
                 <h3>Basic</h3>
                 <p>Der Basic Plan ist der Einstiegspunkt in die Welt der Premium-Funktionen. Perfekt für Anfänger, die die wesentlichen Funktionen benötigen, ohne sich mit zu vielen Optionen auseinanderzusetzen. Einfach und effizient!</p>
+                <div class="stock" style="color: green;">Auf Lager</div> <!-- Text und Farbe auf "Auf Lager" grün gesetzt -->
             </div>
         </div>
     </div>
